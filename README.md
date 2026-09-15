@@ -3,7 +3,7 @@
 **Estudiante:** Natalia Granados Rosales
 **Carné:** 2021144286
 **Estado del proyecto:** 4,5
-**Enlace del video:**
+**Enlace del video: https://youtu.be/HxnR_1OeJEI **
 
 Simulador gráfico de un mini computador (CPU + memoria) que ejecuta programas escritos en un lenguaje ensamblador simplificado, desarrollado para el curso **Principios de Sistemas Operativos**.
 
@@ -210,10 +210,3 @@ MOV BX, -8
 Con una memoria de 256 posiciones (Kernel 0–63, Usuario 64–255), este programa se carga desde la posición 64 y produce el siguiente recorrido del acumulador: `0, 0, 5, 8, 3, 3, 3`, terminando con `AX = 3`, `BX = -8` y `PC = 71`.
 
 ---
-
-## Posibles mejoras futuras
-
-- Soporte para múltiples procesos concurrentes (actualmente `Prioridad` y `Posición BCP` existen en el modelo pero no se usan para planificación real).
-- Instrucciones adicionales (saltos condicionales, comparaciones).
-- Guardar/cargar el estado de ejecución.
-- Exportar el volcado de memoria a un archivo.

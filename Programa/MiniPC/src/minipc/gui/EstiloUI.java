@@ -76,7 +76,7 @@ public final class EstiloUI {
     private static class BotonPlano extends JButton {
         private final Color colorBase;
         private final Color colorHover;
-        private final Color colorBorde; // null = sin borde (botón sólido)
+        private final Color colorBorde; 
         private boolean sobreBoton = false;
 
         BotonPlano(String texto, Color colorBase, Color colorHover, Color colorTexto, Color colorBorde) {
@@ -189,7 +189,7 @@ public final class EstiloUI {
     }
 
     // ------------------------------------------------------------------
-    // Íconos simples (dibujados a mano, sin depender de fuentes de emoji)
+    // iconos simples (dibujados a mano, sin depender de fuentes de emoji)
     // ------------------------------------------------------------------
 
     public static javax.swing.Icon iconoMemoria(Color color) {
@@ -204,7 +204,7 @@ public final class EstiloUI {
         return new IconoSimple(IconoSimple.Tipo.USUARIO, color, 15);
     }
 
-    /** Pequeños íconos vectoriales (chip de memoria, escudo de sistema, persona). */
+    /** Pequeños iconos vectoriales (chip de memoria, escudo de sistema, persona). */
     private static class IconoSimple implements javax.swing.Icon {
         enum Tipo { MEMORIA, SISTEMA, USUARIO }
 
