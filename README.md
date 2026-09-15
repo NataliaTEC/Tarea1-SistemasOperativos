@@ -3,7 +3,7 @@
 **Estudiante:** Natalia Granados Rosales
 **Carné:** 2021144286
 **Estado del proyecto:** 4,5
-**Enlace del video: https://youtu.be/HxnR_1OeJEI **
+**Enlace del video:** https://youtu.be/HxnR_1OeJEI
 
 Simulador gráfico de un mini computador (CPU + memoria) que ejecuta programas escritos en un lenguaje ensamblador simplificado, desarrollado para el curso **Principios de Sistemas Operativos**.
 
